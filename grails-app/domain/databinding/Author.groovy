@@ -11,6 +11,6 @@ class Author {
     }
 
     String toString() {
-    	"$name(${books.size()})"
+    	"$name(${books?.size()})"
     }
 }
